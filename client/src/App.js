@@ -1,5 +1,6 @@
 import React from 'react';
 import FileUpload from './components/FileUpload';
+import SnapEffect from './components/Image/SnapEffect'
 import './App.css';
 
 const App = () => (
@@ -10,6 +11,7 @@ const App = () => (
   </h4>
 
   <FileUpload />
+  <SnapEffect />
 </div>
 );
 

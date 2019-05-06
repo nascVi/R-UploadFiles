@@ -12,6 +12,7 @@ const FileUpload = () => {
 
   const onChange = e => {
     setFile(e.target.files[0]);
+    // check express-upload library to verify the cancel callback handle... 
     setFilename(e.target.files[0].name);
   };
 
