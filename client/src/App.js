@@ -1,7 +1,7 @@
 import React from 'react';
-import { render } from 'react-dom'
+// import { render } from 'react-dom'
 import SMap from './containers/SMap/SMap'
-import Hero from './containers/SHero/SHero'
+import SHero from './containers/SHero/SHero'
 import Sservices from './containers/Sservices/Sservices'
 import FileUpload from './components/FileUpload';
 import ThanosReact from './components/Image/Thanos-React'
@@ -12,7 +12,7 @@ const App = () => (
 <div className='container mt-4'>
   
   <h1>Refonte Varela Electricite</h1>
-  <Hero />
+  <SHero />
   <Sservices />
   <SMap />
 
